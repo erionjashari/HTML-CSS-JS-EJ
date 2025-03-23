@@ -1,0 +1,60 @@
+<!--
+    Module 3 | Medium Challenge
+    HTML Element Structure 
+    Congratulations on completing the first challenge! 
+    Now, let's move on to the next level, where we'll focus on the element structure in HTML. 
+    Your task is to create a webpage with specific elements and attributes. Here are the details:
+    
+    1. Start with a new HTML file and set up the basic structure.  
+    2. Create a <header> element and include a heading that says "My Website." 
+    3. Inside the header, add a navigation menu with three links: "Home," "About," and "Contact." 
+    4. Create a main content section using the <main> element.  
+    5. Within the main content, add a section with an id of "about" and include a heading that says "About Me."  
+    6. Write a paragraph describing your hobbies and interests. 
+    7. Below the "about" section, add another section with an id of "contact" and a heading that says "Contact Me."  
+    8. Insert a form with fields for name, email, and a submit button.  
+    9. Make sure to use appropriate HTML elements and attributes to structure your content effectively. Best of luck! 
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Module 3 | Medium Challenge</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>My Website</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="about">
+                <h2>About Me</h2>
+                <p>
+                    I enjoy reading, hiking, and playing the guitar. 
+                    Learning new things is my passion, and I'm excited to explore the world of web development.
+                </p>
+            </section>
+
+            <section id="contact">
+                <h2>Contact Me</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+        </main>
+    </body>
+</html>
