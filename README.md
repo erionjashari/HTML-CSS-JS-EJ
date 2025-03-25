@@ -1,3 +1,6 @@
+<!--
+Please note that this is all commented to to display the real text.
+
 This repo houses my HTML, CSS, and JavaScript code.
 This is the code I learn in write while enrolled in this Digtal School Corse.
 
@@ -25,6 +28,6 @@ I also add a multi-line comments at the top of my code, usually used for intruct
 These multi-line comments are used a lot in the Module Challenges, usually containing the intructions for the challenge.
 
 Thank You for Reading,
-
+-->
 
       -Erion Jashari
