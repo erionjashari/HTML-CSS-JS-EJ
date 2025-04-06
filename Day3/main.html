@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Day 3</title>
+
+        <style>
+            table, td, th
+            {
+                border: 0.5px solid;
+                border-collapse: collapse;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Heading</h1>
+        <!-- Tables with rows and footer -->
+        <!-- <table>
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Age</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Liburna</td>
+                    <td>Mehmeti</td>
+                    <td>22</td>
+                    <td>liburna.mehmeti@digitalschool.tech</td>
+                </tr>
+
+                <tr>
+                    <td>Erion</td>
+                    <td>Jashari</td>
+                    <td>15</td>
+                    <td>erion.jashari@digitalschool.tech</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">TABLE FOOTER</td>
+                </tr>
+            </tfoot>
+        </table> -->
+
+        <!-- Tabbles with rowsspan -->
+        <!-- When a user has more that one data, and the other has only one-->
+        <!-- <table>
+            <tr>
+                <th>Name:</th>
+                <td>Liburna</td>
+                <td>Erion</td>
+            </tr>
+
+            <tr>    
+                <th rowspan="2">Email</th>
+                <td>test@gmail.com</td>
+                <td rowspan="2">test2@gmail.com</td>
+            </tr>
+
+            <tr>
+                <td>joshmac@gmail.com</td>
+            </tr>
+        </table> -->
+
+        <!-- Lists -->
+        <!-- Unordered list -->
+        <!-- type changes the bullet point style for unorderd lists-->
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <!-- Ordered list -->
+        <!-- type changes the number style for orderd lists-->
+        <!-- also start, starts the list number at a certian value-->
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ol>
+        <!-- Description list -->
+        <dl>
+            <dt>Humburger</dt>
+            <dd>Bread, meat, salad</dd>
+            <dt>Pizza</dt>
+            <dd>Cheese, bread, tomato</dd>
+        </dl>
+
+        <!-- the contenteditable lets you edit text -->
+        <h1 contenteditable="true">Test Test Test</h1>
+        <p contenteditable="true">Test Test Test</p>
+
+        <p>We have a meeting at <time>5:00</time> on Friday</p>
+
+        <label for="task">Task Completion: </label>
+        <progress id="task" value="50" max="100"></progress>50%
+
+        <label for="volume">Volume:</label>
+        <meter value="40" min="0" max="100"></meter>40
+    </body>
+</html>
