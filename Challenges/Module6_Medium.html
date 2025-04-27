@@ -1,0 +1,39 @@
+<!-- HTML Video and Audio     
+    1.  Start with a new HTML file and set up the basic structure. 
+    2.  Create a <header> element and include a heading that says "Multimedia Experience." 
+    3.  Inside the header, add a navigation menu with two links: "Home" and "Media Gallery." 
+    4.  Create a <main> element and divide it into two sections. 
+    5.  In the first section, embed a YouTube video that showcases something interesting or entertaining. 
+    6.  In the second section, add an audio element with your favorite song or podcast. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia Experience.</title>
+</head>
+<body>
+    <header>
+        <h1>Multimedia Experience</h1>
+        <a href="#home">Home</a>
+        <br>
+        <a href="#media-gallery">Media Gallery</a>
+        <br>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Here is an in interesting video</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/tvZ43JqrvXA?si=hKUNmRq6_5bEcltO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+        <section id="media-gallery">
+            <h2>Audio</h2>
+            <audio controls>
+                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+    </main>
+</body>
+</html>
