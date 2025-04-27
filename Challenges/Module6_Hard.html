@@ -1,0 +1,47 @@
+<!--HTML YouTube Integration and Customization 
+    1.  Create a new HTML file and set up the basic structure. 
+    2.  Inside the <body> tag, create a <header> element with a heading that says "YouTube Favorites." 
+    3.  Below the header, create a <main> element and divide it into multiple sections. 
+    4.  In the first section, embed three YouTube videos of your choice. Each video should have a different size (e.g., small, medium, large). 
+    5.  (Optional) Customize the appearance of the YouTube videos using appropriate attributes or CSS styles (e.g., changing the border color, hiding related videos). 
+    6.  In the second section, create a list of recommended YouTube channels. Each channel name should link to its corresponding YouTube page. 
+ -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Integration</title>
+    <style>
+        iframe 
+        {
+            margin: 10px;
+            border: 6px solid #FF0000; /* Red border for YouTube videos */
+        }
+    </style>
+ </head>
+ <body>
+    <header>
+        <h1>YouTube Favorites</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>My favorite videos</h2>
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/kjapiUQOi2s?si=KIXA6V-FXHEj3GJ5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Wv9zbu6RFR8?si=FnQeEszZ3fymqjGb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="600" height="415" src="https://www.youtube.com/embed/1unkluyh2Ks?si=jCbFhhUszklXPdd8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+        <section>
+            <h2>Recommended YouTube Channels</h2>
+            <ul>
+                <li><a href="www.youtube.com/@The8BitGuy" target="_blank">The 8-Bit Guy</a></li>
+                <li><a href="www.youtube.com/@DankPods" target="_blank">DankPods</a></li>
+                <li><a href="www.youtube.com/@Vsauce" target="_blank">Vsauce</a></li>
+            </ul>
+        </section>
+    </main>
+ </body>
+ </html>
