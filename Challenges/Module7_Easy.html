@@ -1,0 +1,35 @@
+<!--
+Create a new HTML file with the extension ".html". 
+    1. Set up the basic structure of an HTML document using appropriate tags. 
+    2. Add a title to your document using the <title> tag. 
+    3. Insert a heading that says "Contact Form" using appropriate heading tags. 
+    4. Create a form using the <form> tag. 
+    5. Inside the form, add an input field for the user's name using the <input> tag. Give it a suitable label. 
+    6. Include another input field for the user's email address. Set the type attribute to "email" to enable browser validation. 
+    7. Add a textarea for the user to enter a message. Provide an appropriate label. 
+    8. Insert a submit button using the <input> tag with the type attribute set to "submit" and a value of "Submit". 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<body>
+    <h1>Contact Form</h1>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
