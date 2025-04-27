@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName"><br><br>
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+        <label for="phonenumber">Phone Number:</label>
+        <input type="tel" id="phonenumber" name="phonenumber"><br><br>
+        <!-- Radio -->
+        <label for="age range">Age Range</label><br>
+        <input type="radio" id="age1" name="age" value="18-25">
+        <label for="age1">18-25</label><br>
+        <input type="radio" id="age2" name="age" value="26-35">
+        <label for="age2">26-35</label><br>
+        <input type="radio" id="age3" name="age" value="36-45">
+        <label for="age3">36-45</label><br>
+        <!-- Check box -->
+        <label for="hobbies">Hobbies:</label><br>
+        <input type="checkbox" id="hobby1" name="hobbies" value="reading">
+        <label for="hobby1">Reading</label><br>
+        <input type="checkbox" id="hobby2" name="hobbies" value="traveling">
+        <label for="hobby2">Traveling</label><br>
+        <input type="checkbox" id="hobby3" name="hobbies" value="gaming">
+        <label for="hobby3">Gaming</label><br><br>
+        <!-- Drop Down-->
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+            <option value="UK">UK</option>
+            <option value="Australia">Australia</option>
+            <option value="Germany">Germany</option>
+            </select><br><br>
+        <!-- Text Area-->
+        <label for="aboutusr">Tell us about yourself:</label><br>
+        <textarea name="aboutusr" id="aboutusr" rows="7" cols="25"></textarea><br><br>
+        <input type="submit" name="submit_btn" id="submit_btn">
+    </fieldset>
+    </form>
+</body>
+</html>
