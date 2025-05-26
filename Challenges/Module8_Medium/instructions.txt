@@ -1,0 +1,11 @@
+Module 8 | Medium Challenge
+Multi-pages with Links 
+Congratulations on completing the first challenge! 
+Now, let's level up and work on creating a multi-page website with HTML links. 
+We'll build a simple portfolio with a home page and an about page. Here's what you need to do:
+    1. Create a new HTML file for each page (home.html and about.html).
+    2. Set up the basic structure of each HTML document using appropriate tags. 
+    3. Add titles to your documents using the <title> tag for each page (e.g., "Home" and "About"). 
+    4. Design a navigation menu on each page using an unordered list (<ul>) with list items (<li>). The menu should have links to navigate between the home and about pages. 
+    5. Create unique content for each page. On the home page, share a brief introduction. On the about page, provide some information about yourself. 
+    6. Add a link back to the home page on the about page and vice versa. 
