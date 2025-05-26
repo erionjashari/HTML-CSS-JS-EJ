@@ -1,5 +1,5 @@
 This repo houses my HTML, CSS, and JavaScript code.
-This is the code I learn in write while enrolled in this Digtal School Corse.
+This is the code I learn in write while enrolled in this Digital School Corse.
 
 
 Here is the typical convention that I use when writing HTML:
